@@ -38,3 +38,7 @@ Rate Limiting: Limits requests & login attempts → blocks brute-force and abuse
 Payments: Trusted gateways (Stripe/PayPal) → safe, compliant transactions.
 Input Validation: Sanitized input → prevents SQL injection, XSS, CSRF.
 Monitoring: Activity logs & alerts → detects suspicious behavior early.
+## CI/CD Pipeline
+CI/CD (Continuous Integration & Deployment) automates testing and deployment.
+Why important: Catches bugs early, speeds up releases, ensures reliable deployments.
+Tools: GitHub Actions (workflows), Docker (containers), Jenkins/GitLab CI, Kubernetes (scaling).
