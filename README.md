@@ -16,6 +16,13 @@ Redis: Used for caching and session management.
 Docker: Containerization tool for consistent development and deployment environments.
 CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
 ## Database Design
+Users → Properties: A user (host) can list multiple properties.
+Users → Bookings: A user (guest) can make multiple bookings.
+Properties → Bookings: A property can have multiple bookings.
+Users → Reviews: A user can leave multiple reviews.
+Properties → Reviews: A property can have multiple reviews.
+Bookings → Payments: Each booking has one payment record.
+## Feature Breakdown
 User Management: Implement a secure system for user registration, authentication, and profile management.
 Property Management: Develop features for property listing creation, updates, and retrieval.
 Booking System: Create a booking mechanism for users to reserve properties and manage booking details.
