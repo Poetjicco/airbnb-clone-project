@@ -29,3 +29,12 @@ Booking System: Create a booking mechanism for users to reserve properties and m
 Payment Processing: Integrate a payment system to handle transactions and record payment details.
 Review System: Allow users to leave reviews and ratings for properties.
 Data Optimization: Ensure efficient data retrieval and storage through database optimizations.
+## API Security
+Security is essential to protect user data, payments, and platform integrity.
+Authentication: Encrypted passwords & token-based login → prevents unauthorized access.
+Authorization: Role-based access control → users only perform allowed actions.
+Encryption: HTTPS/TLS & secure storage → protects sensitive data in transit and at rest.
+Rate Limiting: Limits requests & login attempts → blocks brute-force and abuse.
+Payments: Trusted gateways (Stripe/PayPal) → safe, compliant transactions.
+Input Validation: Sanitized input → prevents SQL injection, XSS, CSRF.
+Monitoring: Activity logs & alerts → detects suspicious behavior early.
